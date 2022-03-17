@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/to-do-app/static/css/main.dbf55476.css",
+    "main.js": "/to-do-app/static/js/main.5c7dd609.js",
+    "static/media/3d-flame-287.png": "/to-do-app/static/media/3d-flame-287.12df6bc6e2d523723510.png",
+    "static/media/flame-1172.png": "/to-do-app/static/media/flame-1172.1c7c5ee9b1623dc02c38.png",
+    "static/media/flame-548.png": "/to-do-app/static/media/flame-548.51783aa49f08177b89a6.png",
+    "index.html": "/to-do-app/index.html",
+    "main.dbf55476.css.map": "/to-do-app/static/css/main.dbf55476.css.map",
+    "main.5c7dd609.js.map": "/to-do-app/static/js/main.5c7dd609.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbf55476.css",
+    "static/js/main.5c7dd609.js"
+  ]
+}
