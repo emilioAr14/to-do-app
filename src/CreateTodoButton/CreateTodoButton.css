@@ -1,0 +1,23 @@
+.CreateTodoButton {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    color: #e5e5e5;
+    background-color: #00ccff;
+    box-shadow: 0 0 15px #000;
+    z-index: 999;
+    transition: all 200ms ease-in-out;
+}
+
+.add-icon {
+    font-size: 20px;
+}
+
+.CreateTodoButton.active {
+    background-color: #ff0000;
+    transform: rotate(135deg);
+}

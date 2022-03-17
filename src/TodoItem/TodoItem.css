@@ -1,0 +1,53 @@
+.task-card {
+    padding: 0 15px;
+    border-radius: 10px;
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(15, 18, 25, 0.6);
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 12px #000;
+}
+
+.check-icon.inactive{
+    transition: all 200ms ease;
+}
+
+.check-icon.active {
+    color: #31ff38;
+    text-shadow: 0 0 5px #31ff38,
+    0 0 10px #31ff38,
+    0 0 20px #31ff38,
+    0 0 40px #31ff38;
+    transform: translateZ(20px) scale(1.5);
+}
+
+.task-card__info.completed{
+    text-decoration: line-through;
+}
+
+.trash-icon{
+    transition: all 200ms ease;
+}
+
+@media (min-width: 1024px) {
+    .check-icon.inactive:hover {
+        color: #31ff38;
+        text-shadow: 0 0 5px #31ff38,
+        0 0 10px #31ff38,
+        0 0 20px #31ff38,
+        0 0 40px #31ff38;
+        transform: translateZ(20px) scale(1.5);
+    }
+
+    .trash-icon:hover {
+        color: #ff0000;
+        text-shadow: 0 0 5px #ff0000,
+        0 0 10px #ff0000,
+        0 0 20px #ff0000,
+        0 0 40px #ff0000;
+        transform: translateZ(10px) scale(1.5);
+    }  
+}

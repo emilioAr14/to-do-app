@@ -1,0 +1,26 @@
+.EmptyTodos {
+    width: 100%;
+    height: 54vh;
+    background-color: rgba(15, 18, 25, 0.6);
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px 12px #000;
+}
+
+.EmptyTodos__image {
+    background-image: url("/public/flame-548.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 197px;
+    margin: auto;
+}
+
+.EmptyTodos__info {
+    font-size: 24px;
+}

@@ -1,0 +1,112 @@
+.TodoForm {
+    width: 60%;
+    height: 95%;
+    min-width: 290px;
+    max-width: 450px;
+    background-color: rgba(15, 18, 25, 0.6);
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    color: #dbdbdb;
+    gap: 15px;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    padding: 15px 0;
+}
+
+.TodoForm-title {
+    font-size: 28px;
+}
+
+.TodoForm-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10%;
+}
+
+.TodoForm-textarea {
+  width: 75%;
+  max-width: 260px;
+  height: 135px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0f1219;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Fredoka", sans-serif;
+  outline: none;
+  border: 2px dashed #dbdbdb;
+  color: #dbdbdb;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.TodoForm-button {
+  max-width: 60px;
+  width: 20%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  color: #dbdbdb;
+  font-family: "Fredoka", sans-serif;
+  font-size: 16px;
+}
+
+.TodoForm-button.erase {
+    background-color: rgb(177 18 18 );
+}
+
+.TodoForm-button.add {
+    background-color: rgb(39 57 187);
+}
+
+.TodoForm-image--container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.TodoForm-image {
+  background-image: url("../../public/3d-flame-287.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 325px;
+}
+
+@media (min-width: 1024px) {
+    .TodoForm{
+        width: 70%;
+        height: 90%;
+        align-self: center;
+        justify-self: center;
+        box-shadow: 2px 2px 12px #000;
+    }
+
+    .TodoForm-button.erase {
+        background-color: rgb(177 18 18 / 60%);
+    }
+    
+    .TodoForm-button.add {
+        background-color: rgb(39 57 187 / 60%);
+    }
+    
+    .TodoForm-button {
+        transition: 200ms;
+    }
+
+    .TodoForm-button:hover {
+        cursor: pointer;
+    }
+
+    .TodoForm-button.add:hover {
+        background-color: rgb(39 57 187);
+    }
+
+    .TodoForm-button.erase:hover {
+        background-color: rgb(177 18 18);
+    }
+}

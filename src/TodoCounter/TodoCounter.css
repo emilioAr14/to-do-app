@@ -1,0 +1,17 @@
+.TodoCounter {
+    padding-top: 10px;
+}
+  
+.TodoCounter__title {
+    text-transform: capitalize;
+    background: linear-gradient(160deg, #020024 10%, #009bff 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.TodoCounter__info {
+    margin-top: 5px;
+}

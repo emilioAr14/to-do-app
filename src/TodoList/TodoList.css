@@ -1,0 +1,30 @@
+.TodoList {
+    padding: 15px 25px;
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.TodoList-wrapper {
+    position: relative;
+    display: grid;
+    place-content: center;
+    grid-template-columns: minmax(250px, 450px);
+    grid-auto-rows: minmax(120px, 1fr);
+    gap: 20px;
+}
+
+
+.TodoList::-webkit-scrollbar {
+    width: 5px;
+}
+
+.TodoList::-webkit-scrollbar-thumb {
+    background-color: rgba(15, 18, 25, 0.8);
+    border-radius: 20px;
+}
+
+@media (min-width: 1024px) {
+    .TodoList {
+        height: 65vh;
+    }
+}
